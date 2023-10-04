@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Quick Search",
+  "version": "1.0",
+  "description": "Highlight text and search quickly.",
+  "permissions": [
+    "contextMenus"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+}
